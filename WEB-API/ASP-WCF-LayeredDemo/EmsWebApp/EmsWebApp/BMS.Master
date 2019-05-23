@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BMS.master.cs" Inherits="EmsWebApp.BMS" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+   
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 232px;
+        }
+    </style>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+            <table class="auto-style1">
+                <tr>
+                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label1" runat="server" ForeColor="#FF3399" Text="Asp.Net and WCF Layered Demo"></asp:Label>
+                        &nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label2" runat="server" ForeColor="#990099" Text="Books Management System"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        <asp:LinkButton ID="lbtnAddBook" runat="server" OnClick="lbtnAddBook_Click">AddBook</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="lBtnUpdateBook" runat="server" OnClick="lBtnUpdateBook_Click">UpdateBook</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="lBtnDeleteBook" runat="server" OnClick="lBtnDeleteBook_Click">DeleteBook</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="lBtnSearchBook" runat="server" OnClick="lBtnSearchBook_Click">SearchBook</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="lBtnViewBook" runat="server" OnClick="lBtnViewBook_Click">ViewBook</asp:LinkButton>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+</body>
+</html>

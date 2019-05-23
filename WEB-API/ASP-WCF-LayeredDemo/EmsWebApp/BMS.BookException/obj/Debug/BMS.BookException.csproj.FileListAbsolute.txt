@@ -1,0 +1,5 @@
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.BookException\bin\Debug\BMS.BookException.dll
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.BookException\bin\Debug\BMS.BookException.pdb
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.BookException\obj\Debug\BMS.BookException.csproj.CoreCompileInputs.cache
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.BookException\obj\Debug\BMS.BookException.dll
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.BookException\obj\Debug\BMS.BookException.pdb

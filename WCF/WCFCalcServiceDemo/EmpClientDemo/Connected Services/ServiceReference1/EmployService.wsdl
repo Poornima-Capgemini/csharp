@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="EmployService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:59036/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:59036/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:59036/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFEmpService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEmployService_UpdateEmp_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateEmp" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_UpdateEmp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateEmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_AutoGenerateEmpno_InputMessage">
+    <wsdl:part name="parameters" element="tns:AutoGenerateEmpno" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_AutoGenerateEmpno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutoGenerateEmpnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_InsertEmp_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertEmp" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_InsertEmp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertEmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_ShowEmp_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShowEmp" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_ShowEmp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShowEmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_SearchEmp_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchEmp" />
+  </wsdl:message>
+  <wsdl:message name="IEmployService_SearchEmp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchEmpResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IEmployService">
+    <wsdl:operation name="UpdateEmp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployService/UpdateEmp" message="tns:IEmployService_UpdateEmp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployService/UpdateEmpResponse" message="tns:IEmployService_UpdateEmp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AutoGenerateEmpno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployService/AutoGenerateEmpno" message="tns:IEmployService_AutoGenerateEmpno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployService/AutoGenerateEmpnoResponse" message="tns:IEmployService_AutoGenerateEmpno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertEmp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployService/InsertEmp" message="tns:IEmployService_InsertEmp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployService/InsertEmpResponse" message="tns:IEmployService_InsertEmp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowEmp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployService/ShowEmp" message="tns:IEmployService_ShowEmp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployService/ShowEmpResponse" message="tns:IEmployService_ShowEmp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchEmp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployService/SearchEmp" message="tns:IEmployService_SearchEmp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployService/SearchEmpResponse" message="tns:IEmployService_SearchEmp_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IEmployService" type="tns:IEmployService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateEmp">
+      <soap:operation soapAction="http://tempuri.org/IEmployService/UpdateEmp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoGenerateEmpno">
+      <soap:operation soapAction="http://tempuri.org/IEmployService/AutoGenerateEmpno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertEmp">
+      <soap:operation soapAction="http://tempuri.org/IEmployService/InsertEmp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowEmp">
+      <soap:operation soapAction="http://tempuri.org/IEmployService/ShowEmp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchEmp">
+      <soap:operation soapAction="http://tempuri.org/IEmployService/SearchEmp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmployService">
+    <wsdl:port name="BasicHttpBinding_IEmployService" binding="tns:BasicHttpBinding_IEmployService">
+      <soap:address location="http://localhost:59036/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

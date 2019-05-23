@@ -1,0 +1,7 @@
+C:\c#\WCF\WCFCalcServiceDemo\WCFEmpService\bin\WCFEmpService.dll.config
+C:\c#\WCF\WCFCalcServiceDemo\WCFEmpService\bin\WCFEmpService.dll
+C:\c#\WCF\WCFCalcServiceDemo\WCFEmpService\bin\WCFEmpService.pdb
+C:\c#\WCF\WCFCalcServiceDemo\WCFEmpService\obj\Debug\WCFEmpService.csproj.CoreCompileInputs.cache
+C:\c#\WCF\WCFCalcServiceDemo\WCFEmpService\obj\Debug\WCFEmpService.dll
+C:\c#\WCF\WCFCalcServiceDemo\WCFEmpService\obj\Debug\WCFEmpService.pdb
+C:\c#\WCF\WCFCalcServiceDemo\WCFEmpService\obj\Debug\WCFEmpService.csprojAssemblyReference.cache

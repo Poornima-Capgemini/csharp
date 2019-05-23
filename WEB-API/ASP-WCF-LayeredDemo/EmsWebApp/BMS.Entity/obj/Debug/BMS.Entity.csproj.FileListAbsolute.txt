@@ -1,0 +1,5 @@
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.Entity\bin\Debug\BMS.Entity.dll
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.Entity\bin\Debug\BMS.Entity.pdb
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.Entity\obj\Debug\BMS.Entity.csproj.CoreCompileInputs.cache
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.Entity\obj\Debug\BMS.Entity.dll
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\EmsWebApp\BMS.Entity\obj\Debug\BMS.Entity.pdb

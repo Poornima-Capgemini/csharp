@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EmpCrud.master.cs" Inherits="EmpClientDemo.EmpCrud" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <style type="text/css">
+        .auto-style1 {
+            width: 80%;
+            border-style: solid;
+            border-width: 5px;
+        }
+        .auto-style2 {
+            width: 166px;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           
+            <table align="left" cellpadding="5" cellspacing="5" class="auto-style1">
+                <tr>
+                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" ForeColor="#CC3399" Text="Employ CRUD Operations Demo"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">ShowEmploy</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">AddEmploy</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">SearchEmploy</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">UpdateEmploy</asp:LinkButton>
+                        <br />
+                        <br />
+                        <asp:LinkButton ID="LinkButton5" runat="server">DeleteEmploy</asp:LinkButton>
+                    </td>
+                    <td class="auto-style2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label2" runat="server" ForeColor="Fuchsia" Text="CopyRight to Capgemini"></asp:Label>
+                    </td>
+                </tr>
+            </table>
+           
+        </div>
+    </form>
+</body>
+</html>

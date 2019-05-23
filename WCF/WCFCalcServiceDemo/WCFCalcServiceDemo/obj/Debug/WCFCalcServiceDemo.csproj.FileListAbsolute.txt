@@ -1,0 +1,7 @@
+C:\c#\WCF\WCFCalcServiceDemo\WCFCalcServiceDemo\bin\WCFCalcServiceDemo.dll.config
+C:\c#\WCF\WCFCalcServiceDemo\WCFCalcServiceDemo\bin\WCFCalcServiceDemo.dll
+C:\c#\WCF\WCFCalcServiceDemo\WCFCalcServiceDemo\bin\WCFCalcServiceDemo.pdb
+C:\c#\WCF\WCFCalcServiceDemo\WCFCalcServiceDemo\obj\Debug\WCFCalcServiceDemo.csprojAssemblyReference.cache
+C:\c#\WCF\WCFCalcServiceDemo\WCFCalcServiceDemo\obj\Debug\WCFCalcServiceDemo.csproj.CoreCompileInputs.cache
+C:\c#\WCF\WCFCalcServiceDemo\WCFCalcServiceDemo\obj\Debug\WCFCalcServiceDemo.dll
+C:\c#\WCF\WCFCalcServiceDemo\WCFCalcServiceDemo\obj\Debug\WCFCalcServiceDemo.pdb

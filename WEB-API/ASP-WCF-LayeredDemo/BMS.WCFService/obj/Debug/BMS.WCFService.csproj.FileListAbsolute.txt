@@ -1,0 +1,6 @@
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\BMS.WCFService\obj\Debug\BMS.WCFService.csproj.CoreCompileInputs.cache
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\BMS.WCFService\bin\BMS.WCFService.dll.config
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\BMS.WCFService\bin\BMS.WCFService.dll
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\BMS.WCFService\bin\BMS.WCFService.pdb
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\BMS.WCFService\obj\Debug\BMS.WCFService.dll
+C:\c#\WEB-API\ASP-WCF-LayeredDemo\BMS.WCFService\obj\Debug\BMS.WCFService.pdb

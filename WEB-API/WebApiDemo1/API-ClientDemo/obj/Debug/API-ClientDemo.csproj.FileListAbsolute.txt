@@ -1,0 +1,14 @@
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\bin\Debug\API-ClientDemo.exe.config
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\bin\Debug\API-ClientDemo.exe
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\bin\Debug\API-ClientDemo.pdb
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\bin\Debug\Newtonsoft.Json.dll
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\bin\Debug\Newtonsoft.Json.xml
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API-ClientDemo.csprojAssemblyReference.cache
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API_ClientDemo.Form1.resources
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API_ClientDemo.Properties.Resources.resources
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API-ClientDemo.csproj.GenerateResource.cache
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API-ClientDemo.csproj.CoreCompileInputs.cache
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API-ClientDemo.csproj.CopyComplete
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API-ClientDemo.exe
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API-ClientDemo.pdb
+C:\c#\WEB-API\WebApiDemo1\API-ClientDemo\obj\Debug\API_ClientDemo.Form2.resources
