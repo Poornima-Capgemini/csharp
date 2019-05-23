@@ -1,0 +1,6 @@
+C:\C#\LINQ\Program3\bin\Debug\Program3.exe.config
+C:\C#\LINQ\Program3\bin\Debug\Program3.exe
+C:\C#\LINQ\Program3\bin\Debug\Program3.pdb
+C:\C#\LINQ\Program3\obj\Debug\Program3.csproj.CoreCompileInputs.cache
+C:\C#\LINQ\Program3\obj\Debug\Program3.exe
+C:\C#\LINQ\Program3\obj\Debug\Program3.pdb
